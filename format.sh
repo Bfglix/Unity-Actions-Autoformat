@@ -10,6 +10,7 @@ Yellow='\033[0;33m'       # Yellow
 path=$1
 
 # Install dotnet and git-lfs
+apt update 
 dotnet tool install -g dotnet-format
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
 apt-get install git-lfs
