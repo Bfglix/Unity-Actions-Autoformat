@@ -11,6 +11,7 @@ path=$1
 
 # Install dotnet and git-lfs
 dotnet tool install -g dotnet-format
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 apt-get install git-lfs
 
 
