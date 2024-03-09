@@ -11,9 +11,8 @@ path=$1
 
 # Install dotnet and git-lfs
 dotnet tool install -g dotnet-format
-sudo apt-get install git-lfs
+apt-get install git-lfs
 
-git lfs install
 
 # Set the path to the tool
 export PATH="$PATH:/github/home/.dotnet/tools"
